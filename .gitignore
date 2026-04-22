@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# ML artifacts
+models/*.pkl
+models/*.joblib
+
+# Backtest / run results
+results/
+
+# Raw data snapshots (re-fetchable; signal CSV kept)
+data/SOXL_2yr_daily.csv
+data/SOXL_2yr_daily_reconciled.csv
+data/SOXL_7d_*.csv
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code internal
+.claude/
